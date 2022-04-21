@@ -1,0 +1,141 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo{
+    max-width: 200px;
+    
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: rgb(0,1,8);
+    background: linear-gradient(0deg, rgba(0,1,8,1) 0%, rgba(0,145,244,1) 100%);    
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+
+footer {
+    justify-content: center;
+    color:white;
+    font-size: 13px;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+footer{
+    background: black;
+    width: 100%;
+    display:flex;
+    
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+
+p, div {
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#weertitel{
+    margin-bottom: 3em;
+    background: black;
+    color: white;
+    text-align: center;
+    width:90%;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.groep {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    color: white;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.groep p, .groep div {
+    text-align:left;
+    margin-left: 3em;
+}
+#wolkdiv{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#wolkdiv p{
+    margin-right: auto;
+}
+.movie {
+    margin-top: 20px;
+}
+
+
+
+
+p, div{
+    font-family: monospace;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px){
+    .logo{
+    max-width: 210px;   
+    }
+   
+}
+
+@media only screen and (min-width: 800px){
+    .logo{
+    max-width: 220px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1000px){
+    .logo{
+    max-width: 280px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .logo{
+    max-width: 290px;
+    }
+    
+     .groep{
+        width: 70%;
+    }
+    
+    #weertitel{
+        width: 70%;
+    }
+    
+    p{
+        font-size: 20px;
+    }
+}

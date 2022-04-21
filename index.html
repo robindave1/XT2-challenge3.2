@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Kaart.css" rel="stylesheet">
+  <title>Landings plek</title>
+</head>
+<body>
+    <header>            
+        <img src="spacex.png" alt="logo spacex" class="logo">         
+    </header> 
+
+    <section id="blok">
+       <div id="weertitel">
+        <p>Het weer nu op de landings plek</p>
+       </div>
+       <div class="groep">
+         <div class="weer">
+           <p>Tempratuur: <span id="tempratuur"></span></p>
+           <br>
+           <p>Windkracht:  <span id="windkracht"></span></p>
+           <br>
+           <p>Luchtvochtigheid:  <span id="luchtvochtigheid"></span></p>
+          </div>
+          <div id="wolkdiv"><img id="wolk"></img></div>
+       </div>
+      
+    </section>
+    
+    <section>
+      <div class="movie groep">
+        <p>Film van de dag: <p id="film"></p></p>
+      </div>
+    </section>
+
+    <footer>
+        <p>&#169; SpaceX</p>
+    </footer>
+    <script src="jquery-3.6.0.min.js"></script>
+  <script src="Kaart.js"></script>
+</body>
+</html>
